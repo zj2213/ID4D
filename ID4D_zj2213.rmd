@@ -12,7 +12,7 @@ library(gdata)
 library(ggplot2)
 library(dplyr)
 # Read data in R
-setwd("/Users/stevenjia93/Desktop/CU_Spring/DataVis/HW1")
+setwd("/Users/rayhan/Desktop/DataVis/HW1")
 df <- read.xls("WB_ID4D_dataset.xlsx", 2, header = TRUE)
 dat <- df[1:199, -c(1,2)]
 names(dat) <- as.matrix(dat[1, ])
